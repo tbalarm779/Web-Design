@@ -1,0 +1,72 @@
+HTML Code:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="bgimage">
+		
+     <div class="full">
+     	<div class="text">
+     		<ul><li>Home</li>
+     			<li>Booking</li>
+     			<li>Services</li>
+     			<li>About us</li>
+     			<li>Contact</li>
+     		</ul>
+     	</div>
+     	<div class="logo">
+     		<img src="logo.jpg" width="80" height="70">
+     	</div>
+     	
+     </div>
+ </div>
+ 	
+
+</body>
+</html>
+
+
+CSS:
+body{
+	margin: 0;
+	padding: 0;
+}
+.bgimage{
+	width: 1366px;
+	height: 100vh;
+	background-image: url("bg.jpg");
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+}
+.full{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(0,0,0,0.4);
+}
+.text{
+	width: 50%;
+	line-height: 10px;
+	float: right;
+
+}
+.text ul{
+	margin-left: 30px;
+}
+.text ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 30px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+.text ul li:hover{
+	color: orange;
+}
